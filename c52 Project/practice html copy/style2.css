@@ -1,0 +1,118 @@
+body{
+    background : whitesmoke;
+}
+
+.header{
+    background-color: black;
+    /* padding : 35px; */
+}
+.no1{
+    display: flex;
+    /* justify-content: flex-start; */
+    justify-self: space-between;
+    color : white;
+
+
+}
+.no1 *{
+    /* border : solid white; */
+    margin-left: 10px;
+    padding-bottom : 10px;
+}
+
+.names{
+    display: flex;
+    justify-content: space-between;
+}
+.kavya{
+    /* background-color: rgb(105, 99, 99); */
+    /* display : flex; */
+    background-color: rgb(201, 192, 192);
+    justify-content: flex-start  space-between;
+    
+    
+}
+
+.main{
+    display : flex;
+    justify-content: center;
+    font-size: 30px;
+    font-family: 'Algerian';
+    color: white;
+  
+    
+}
+
+.sub_parts{
+    display: flex;
+    justify-content: flex-start;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+    font-family : 'sans-serif';
+
+}
+
+.grid{
+    
+    
+    display: flex;
+    flex-wrap: wrap;
+    justify-content : space-around;
+}
+.grid img{
+    border-radius: 30px;
+    border : 2px solid black;
+
+   
+}
+
+.info{
+
+    
+    background-color: powderblue;
+    border-radius: 20px;
+    font-size : 20px;
+    width : 320px;
+}
+
+.footer{
+    display: flex;
+    justify-content: center;
+    background-color : grey;
+}
+
+.social{
+    display : flex;
+    flex-wrap : wrap;
+    justify-content : center;
+
+}
+
+.images1{
+    display : flex;
+    justify-content : center;
+}
+.images2{
+    display: flex;
+    justify-content : center;
+    /* background-color: powderblue ; */
+}
+
+a:hover {
+    opacity : 0.7;
+}
+
+a:link{
+    color : white;
+    text-decoration : none;
+}
+a:visited{
+    color : white;
+}
+.info:hover{
+    transform : scale(1.1);
+}
